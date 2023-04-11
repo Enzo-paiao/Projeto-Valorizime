@@ -23,8 +23,8 @@ public class UsuarioService {
 
     private final UsuariosRepository usuariosRepo;
 
-    public UsuarioService(UsuariosRepository AssinaturaRepository){
-        this.usuariosRepo=AssinaturaRepository;
+    public UsuarioService(UsuariosRepository UsuariosRepository){
+        this.usuariosRepo=UsuariosRepository;
     }
 
     public List<Usuarios> getUsuarios(){
