@@ -1,0 +1,6 @@
+backend\valorizeme\negocio\UsuarioService.class
+backend\valorizeme\persistencia\DynamoDBConfig.class
+backend\valorizeme\rest\UsuariosController.class
+backend\valorizeme\Application.class
+backend\valorizeme\entidades\Usuarios.class
+backend\valorizeme\persistencia\UsuariosRepository.class

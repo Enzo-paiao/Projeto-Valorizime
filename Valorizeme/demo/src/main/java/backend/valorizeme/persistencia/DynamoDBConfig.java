@@ -17,10 +17,10 @@ import org.socialsignin.spring.data.dynamodb.repository.config.EnableDynamoDBRep
 @EnableDynamoDBRepositories(basePackages = "backend.valorizeme.persistencia")
 public class DynamoDBConfig {
 
-	@Value("")
+	@Value("AKIAXJIBLJUMCMGW3O4A")
 	private String amazonAWSAccessKey;
 
-	@Value("")
+	@Value("f4Sw30dbyG4TKnVLZjbaQNAFmOnvf3grH4K0l2s9")
 	private String amazonAWSSecretKey;
 
 	public AWSCredentialsProvider amazonAWSCredentialsProvider() {

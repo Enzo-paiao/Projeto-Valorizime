@@ -47,7 +47,7 @@ public class UsuariosController {
     }
 
     @ResponseStatus(HttpStatus.CREATED)
-    @PostMapping(value = "{id}", consumes = MediaType.APPLICATION_JSON_VALUE)
+    @PostMapping(value = "", consumes = MediaType.APPLICATION_JSON_VALUE)
     public Usuarios createUsuarios(@RequestBody @NotNull Usuarios usuario) throws Exception {
          return usuarioService.saveUsuarios(usuario);
     }
