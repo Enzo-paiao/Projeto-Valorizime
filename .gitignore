@@ -1,3 +1,3 @@
-Valorizeme/demo/target/*
-backend-assinatura/demo/target/*
+Valorizeme\demo\target*
+backend-assinatura\demo\target*
 application.properties
