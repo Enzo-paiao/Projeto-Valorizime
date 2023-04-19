@@ -46,10 +46,10 @@ public class UsuarioTest {
 	@EnableDynamoDBRepositories(basePackageClasses = UsuariosRepository.class)
 	public static class DynamoDBConfig {
 
-		@Value("")
+		@Value("${amazon.aws.accesskey}")
 		private String amazonAWSAccessKey;
 
-		@Value("")
+		@Value("${amazon.aws.secretkey}")
 		private String amazonAWSSecretKey;
 
 		public AWSCredentialsProvider amazonAWSCredentialsProvider() {
