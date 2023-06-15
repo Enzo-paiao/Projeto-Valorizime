@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Application",
+            "request": "launch",
+            "mainClass": "val.backend.Application",
+            "projectName": ""
+        },
+        {
+            "type": "java",
             "name": "Current File",
             "request": "launch",
             "mainClass": "${file}"
@@ -21,9 +28,9 @@
             "type": "java",
             "name": "Application(1)",
             "request": "launch",
-            "mainClass": "backend.assinatura.Application",
-            "projectName": "demo",
-            "vmArgs": "-Dspring.config.location=D:\\Paião\\Documents\\Projeto-Valorizime\\Valorizeme\\demo\\"
+            "mainClass": "val.backend.Application",
+            "projectName": "backend_assinatura",
+            "vmArgs": "-Dspring.config.location=D:\\Paião\\Documents\\Projeto-Valorizime\\backend_assinatura\\"
         }
     ]
 }
